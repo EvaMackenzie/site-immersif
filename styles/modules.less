@@ -1,0 +1,233 @@
+.intro-bg {
+  background: url("../assets/img/typewriter.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.light .intro .title.main {
+  color: @compone;
+}
+
+.title.main {
+  font-size: 4.4rem;
+  color: inherit;
+  font-weight: bold;
+  transition: color 1s 0.5s ease-in;
+}
+
+.title.sub {
+  font-family: arial;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.title.thin {
+  font-size: 1.7rem;
+  font-family: overpass-mono;
+}
+
+.title, .text {
+  margin: 10px 0;
+}
+
+.title + .text {
+  margin-top: 0;
+}
+
+.pane .title.left {
+  align-self: flex-start;
+}
+
+.nav.main  {
+  max-width: 375px;
+  display: flex;
+  justify-self: flex-end;
+  flex: 1;
+  -webkit-flex: 1;
+}
+
+.nav.main .list {
+  display: flex;
+  padding: 0;
+}
+
+.nav.main .item {
+  margin-right: 20px;
+  font-size: 1.3rem;
+}
+
+.nav.main .item:last-of-type {
+  margin-right: 0;
+}
+
+.nav.main .link:hover {
+  color: @pink;
+}
+
+.toggle-theme {
+  cursor: pointer;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.scroll-top {
+  cursor: pointer;
+  max-width: 100px;
+}
+
+.pane.anim {
+  padding-top: 110px;
+  background: url("../assets/img/jim.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.love {
+  margin-top: 40px;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.love .heart {
+  margin: 0 20px;
+  font-size: 1.9rem;
+}
+
+.pane.anim .love {
+  font-size: 6.3rem;
+  margin-bottom: 60px;
+}
+
+@keyframes heartbeat {
+  from {
+    font-size: 6.3rem;
+    color: #131313;
+  }
+  to {
+    font-size: 10rem;
+    color: @pink;
+  }
+}
+.pane.anim .heart.active {
+  animation: 2s ease-in 1s infinite heartbeat alternate;
+}
+
+//// PANE 1 / 5
+.intro-bg {
+  position: relative;
+  padding-top: 80px;
+}
+
+//// PANE 2 / 5
+
+.pane.udo {
+  top: 0;
+  background: @blueone;
+}
+
+.pane.udo .author {
+  position: relative;
+  left: -28px;
+  margin-top: 20px;
+  display: block;
+  white-space: nowrap;
+  font-size:1.3rem;
+  max-width: 120px;
+}
+
+.pane.udo .text {
+  margin-top: 20px;
+  font-size:.93rem;
+  max-width: 120px;
+}
+
+.light .pane.udo {
+  background: @compone;
+}
+
+//// PANE 3 / 5
+// RAS POUR LE MOMENT...
+
+//// PANE 4 / 5
+.pane.rendu {
+  background: url("../assets/img/blossom.jpg");
+}
+//// PANE 5 / 5
+.pane.contact {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background: url("../assets/img/contact.gif");
+}
+
+.pane.contact .form {
+  align-self: flex-start;
+  width: 100%;
+  max-width: 775px;
+}
+
+.pane.contact .form > * {
+  margin-bottom: 50px;
+}
+
+.contact .row:nth-child(1) {
+  justify-content: space-around;
+}
+
+.contact .row:nth-child(1) .input:first-of-type {
+  margin-right: 110px;
+}
+
+.contact .row:nth-child(1) .input {
+  max-width: 375px;
+}
+
+.pane.contact > *:last-child {
+  margin-bottom: 0;
+}
+
+.pane.contact .input, .pane.contact .textarea {
+  height: 80px;
+  padding-left: 20px;
+  background: white;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.pane.contact .textarea {
+  padding-top: 30px;
+  min-height: 200px;
+  height: auto;
+  margin-bottom: 0;
+}
+
+.pane.contact .input, .pane.contact .textarea {
+  width: 100%;
+  max-width: 775px;
+}
+
+.pane.contact .button {
+  margin-top: 50px;
+  height: 75px;
+  width: 100%;
+  max-width: 300px;
+  border: 2px solid @pink;
+  color: @pink;
+  align-self: flex-end;
+  position: relative;
+  right: -250px;
+  margin-bottom: 0;
+}
+
+#grid_footer {
+  color: white;
+}
+
+#grid_footer .toggle-theme {
+  max-width: 100px;
+}
+
+.logo.footer {
+  width: 50px;
+}

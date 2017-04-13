@@ -1,0 +1,21 @@
+<svg version="2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340">
+  <!-- Fond-->
+  <circle r="130" cx="170" cy="170" fill="orange"></circle>
+  <g>
+    <!-- 1er I-->
+    <rect x="170" y="125" fill="white" width="12" rx="2" height="10"></rect>
+    <rect x="170" y="140" fill="white" width="12" rx="2" height="50"></rect>
+    <!-- 2ème I-->
+    <rect x="190" y="125" fill="white" width="12" rx="2" height="10"></rect>
+    <rect x="190" y="140" fill="white" width="12" rx="2" height="50"></rect>
+    <!-- M-->
+    <rect x="210" y="130" fill="white" width="12" rx="2" height="60"></rect>
+    <polygon fill="white" points="220,130 222,130 235,155 250,130 252,130 252,150 242,170 230,170 220,150"></polygon>
+    <rect x="250" y="130" fill="white" width="12" rx="2" height="60"></rect>
+  </g>
+  <!-- Léonard De Vinci-->
+  <g class="leonard">
+    <text x="80" y="230" fill="white" font-family="Lato, sans-serif" font-size="25">LÉONARD</text>
+    <text x="90" y="255" fill="white" font-family="Lato, sans-serif" font-size="25">DE VINCI</text>
+  </g>
+</svg>
